@@ -1,0 +1,27 @@
+name: keras-3.8
+channels:
+  - defaults
+  - rdkit
+dependencies:
+  - python=3.8
+  - keras
+  - rdkit
+  - jupyterlab
+  - pip>=19.0
+  - jupyter
+  - scikit-learn
+  - scipy
+  - pandas
+  - pandas-datareader
+  - matplotlib
+  - pillow
+  - tqdm
+  - requests
+  - h5py
+  - pyyaml
+  - flask
+  - boto3
+  - pip:
+    - tensorflow==2.4
+    - bayesian-optimization
+    - gym
