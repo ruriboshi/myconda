@@ -1,0 +1,15 @@
+name: pycaret-3.8
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - jupyterlab
+  - jupyter
+  - numpy
+  - scipy
+  - pandas
+  - pandas-datareader
+  - matplotlib
+  - seaborn
+  - pip:
+    - pycaret
