@@ -1,9 +1,9 @@
-name: keras-3.8
+name: keras-3.7
 channels:
   - defaults
   - rdkit
 dependencies:
-  - python=3.8
+  - python=3.7
   - keras
   - rdkit
   - jupyterlab
